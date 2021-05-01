@@ -31,15 +31,12 @@ Our face mask detector didn't use any morphed masked images dataset. The model i
 
 This system can therefore be used in real-time applications which require face-mask detection for safety purposes due to the outbreak of Covid-19. This project can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
 
-## :file_folder: Dataset
-The dataset used can be downloaded here - [Click to Download](https://drive.google.com/drive/folders/1XDte2DL2Mf_hw4NsmGst7QtYoU7sMBVG?usp=sharing)
-
 This dataset consists of __4095 images__ belonging to two classes:
 *	__with_mask: 2165 images__
 *	__without_mask: 1930 images__
 
 The images used were real images of faces wearing masks. The images were collected from the following sources:
 
-* __Bing Search API__ ([See Python script](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/search.py))
+* __Bing Search API__
 * __Kaggle datasets__ 
-* __RMFD dataset__ ([See here](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset))
+* __RMFD dataset__
