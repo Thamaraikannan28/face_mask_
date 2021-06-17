@@ -26,17 +26,17 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 - [TensorFlow](https://www.tensorflow.org/)
 - [MobileNetV2](https://arxiv.org/abs/1801.04381)
 
-## :star: Features
-Our face mask detector didn't use any morphed masked images dataset. The model is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.).
+    ## :star: Features
+    Our face mask detector didn't use any morphed masked images dataset. The model is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.).
 
-This system can therefore be used in real-time applications which require face-mask detection for safety purposes due to the outbreak of Covid-19. This project can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
+    This system can therefore be used in real-time applications which require face-mask detection for safety purposes due to the outbreak of Covid-19. This project can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
 
-This dataset consists of __4095 images__ belonging to two classes:
-*	__with_mask: 2165 images__
-*	__without_mask: 1930 images__
+    This dataset consists of __4095 images__ belonging to two classes:
+    *	__with_mask: 2165 images__
+    *	__without_mask: 1930 images__
 
-The images used were real images of faces wearing masks. The images were collected from the following sources:
+    The images used were real images of faces wearing masks. The images were collected from the following sources:
 
-* __Bing Search API__
-* __Kaggle datasets__ 
-* __RMFD dataset__
+    * __Bing Search API__
+    * __Kaggle datasets__ 
+    * __RMFD dataset__
